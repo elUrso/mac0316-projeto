@@ -1,0 +1,3 @@
+# Test STDLIB
+propono ([fib 5])
+# Deve retornar 8

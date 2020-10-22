@@ -1,0 +1,2 @@
+propono ( 2 + [fatorial 2]*[fib 5] - 5 / [fatorial 12] + (quod ([fatorial 2] - [fatorial 3]) ? 12 : 1 ! ) )  
+

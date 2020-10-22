@@ -1,0 +1,11 @@
+functio fib x (quod x ? quod x - 1 ? [fib x-1] + [fib x-2]: 1 ! : 1 !) tum
+functio fatorial x (quod x ? x * [fatorial x-1] : 1 !) tum
+functio hanoiRec qnt (transeat src ad (transeat dest ad (transeat temp ad (
+    quod qnt ?
+        ([[[[hanoiRec qnt - 1] src] temp] dest] tum
+        propono(src) tum
+        propono(dest) tum
+        [[[[hanoiRec qnt - 1] temp] dest] src])
+    : 0 !
+)))) tum
+functio hanoi x ([[[[hanoiRec x] 1] 3] 2])

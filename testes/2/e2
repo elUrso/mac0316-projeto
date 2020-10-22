@@ -1,0 +1,3 @@
+# lamdas
+paro add (transeat x ad (transeat y ad (x+y))) tum propono([[add 40] 2])
+# (numV 42)

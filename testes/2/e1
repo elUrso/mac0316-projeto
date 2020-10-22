@@ -1,0 +1,3 @@
+# create function and apply
+propono([transeat x ad (x+1) 4])
+# expect (numV 5)

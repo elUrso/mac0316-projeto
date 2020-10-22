@@ -1,0 +1,1 @@
+)) mt-env mt-store))] (begin (interp (desugar (parse (read))) (v*s*e-e stdlib) (v*s*e-s stdlib)) "Guidi says 'Falou!'"))
